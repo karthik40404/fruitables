@@ -2,5 +2,6 @@ from django.urls import path
 from . import views
 # Create your views here.
 urlpatterns = [
-    path('fruity/', views.fruity)
+    path('', views.fruity),
+    path('contact', views.contact)
 ]
